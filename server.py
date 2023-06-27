@@ -4,7 +4,7 @@ import wave
 
 CHUNK = 1024
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(('10.16.20.165', 12345))
+server.bind(('127.0.0.1', 12345))
 server.listen(3)
 
 """Основной цикл программы"""
